@@ -1,5 +1,16 @@
 # Typescript_Calculadora
-Una sencilla calculadora creada en typescript para probar como funciona y la transpilación del codigo ts a js.
+- Una sencilla calculadora creada en typescript, permite sumar, restar, multiplicar y dividir.
+- El proposito de de este codigo es aprender a hacer la transpilación a js para poder utilzarlo en web como veremos en el siguiente apartado-tutorial
+
+## Transpilación
+Para poder transpilar el codigo solo hay que seguir estos pasos:
+1. Escribir ``npm install -g typescript`` en la consola para instalar typescript
+2. Escribir ``tsc nombre_del_archivo`` en este caso: ``tsc calculadora.ts``
+3. Veras como se ha creado el fichero ``calculadora.js``
+4. Puedes ejecutar con el comando ``node calculadora.js`` el codigo para ver que te devuelve.
+5. Puedes crear un script en el package.json para que te haga los dos pasos anteriores simultaneamente asi:
+![image](https://user-images.githubusercontent.com/22988550/176773598-9b331245-1e90-44c2-8bcd-6c091795b8b7.png)
+
 ## Codigo
 `````Typescript
 // Creamos la clase calculadora
